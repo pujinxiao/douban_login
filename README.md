@@ -20,6 +20,7 @@
 声明：本项目主要是学习scrapy模拟登录
 > 1. 豆瓣的验证码是英文字母，长度不知道，识别成功率比较低；
 > 2. 登录失败时，我用yield Request(url,callback=self.start_request)为什么会不行。每次登录失败都是重新运行start.py（待解决）
+> 3. 如果运行程序结束，什么都没有输出，打开豆瓣网站看看，是否有 Please try later.提示，这时候就需要换用代理ip，代理IP池请看我博客：[python爬虫实战（三）--------搜狗微信文章（IP代理池和用户代理池设定----scrapy）](http://www.cnblogs.com/jinxiao-pu/p/6665180.html) 
 
 **欢迎有兴趣的小伙伴帮我优化，解决以上问题，之后我将合并你的代码，作为贡献者,共同成长。**
 
